@@ -69,28 +69,28 @@ include kironjCore/CMakeFiles/kironjCore.dir/progress.make
 # Include the compile flags for this target's objects.
 include kironjCore/CMakeFiles/kironjCore.dir/flags.make
 
-kironjCore/CMakeFiles/kironjCore.dir/src/kironjCore/Utils/test.cpp.o: kironjCore/CMakeFiles/kironjCore.dir/flags.make
-kironjCore/CMakeFiles/kironjCore.dir/src/kironjCore/Utils/test.cpp.o: ../kironjCore/src/kironjCore/Utils/test.cpp
-kironjCore/CMakeFiles/kironjCore.dir/src/kironjCore/Utils/test.cpp.o: kironjCore/CMakeFiles/kironjCore.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/t1rxdqq/VSCode/c++/kironj/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object kironjCore/CMakeFiles/kironjCore.dir/src/kironjCore/Utils/test.cpp.o"
-	cd /home/t1rxdqq/VSCode/c++/kironj/build/kironjCore && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT kironjCore/CMakeFiles/kironjCore.dir/src/kironjCore/Utils/test.cpp.o -MF CMakeFiles/kironjCore.dir/src/kironjCore/Utils/test.cpp.o.d -o CMakeFiles/kironjCore.dir/src/kironjCore/Utils/test.cpp.o -c /home/t1rxdqq/VSCode/c++/kironj/kironjCore/src/kironjCore/Utils/test.cpp
+kironjCore/CMakeFiles/kironjCore.dir/src/kironjCore/Application.cpp.o: kironjCore/CMakeFiles/kironjCore.dir/flags.make
+kironjCore/CMakeFiles/kironjCore.dir/src/kironjCore/Application.cpp.o: ../kironjCore/src/kironjCore/Application.cpp
+kironjCore/CMakeFiles/kironjCore.dir/src/kironjCore/Application.cpp.o: kironjCore/CMakeFiles/kironjCore.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/t1rxdqq/VSCode/c++/kironj/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object kironjCore/CMakeFiles/kironjCore.dir/src/kironjCore/Application.cpp.o"
+	cd /home/t1rxdqq/VSCode/c++/kironj/build/kironjCore && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT kironjCore/CMakeFiles/kironjCore.dir/src/kironjCore/Application.cpp.o -MF CMakeFiles/kironjCore.dir/src/kironjCore/Application.cpp.o.d -o CMakeFiles/kironjCore.dir/src/kironjCore/Application.cpp.o -c /home/t1rxdqq/VSCode/c++/kironj/kironjCore/src/kironjCore/Application.cpp
 
-kironjCore/CMakeFiles/kironjCore.dir/src/kironjCore/Utils/test.cpp.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/kironjCore.dir/src/kironjCore/Utils/test.cpp.i"
-	cd /home/t1rxdqq/VSCode/c++/kironj/build/kironjCore && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/t1rxdqq/VSCode/c++/kironj/kironjCore/src/kironjCore/Utils/test.cpp > CMakeFiles/kironjCore.dir/src/kironjCore/Utils/test.cpp.i
+kironjCore/CMakeFiles/kironjCore.dir/src/kironjCore/Application.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/kironjCore.dir/src/kironjCore/Application.cpp.i"
+	cd /home/t1rxdqq/VSCode/c++/kironj/build/kironjCore && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/t1rxdqq/VSCode/c++/kironj/kironjCore/src/kironjCore/Application.cpp > CMakeFiles/kironjCore.dir/src/kironjCore/Application.cpp.i
 
-kironjCore/CMakeFiles/kironjCore.dir/src/kironjCore/Utils/test.cpp.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/kironjCore.dir/src/kironjCore/Utils/test.cpp.s"
-	cd /home/t1rxdqq/VSCode/c++/kironj/build/kironjCore && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/t1rxdqq/VSCode/c++/kironj/kironjCore/src/kironjCore/Utils/test.cpp -o CMakeFiles/kironjCore.dir/src/kironjCore/Utils/test.cpp.s
+kironjCore/CMakeFiles/kironjCore.dir/src/kironjCore/Application.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/kironjCore.dir/src/kironjCore/Application.cpp.s"
+	cd /home/t1rxdqq/VSCode/c++/kironj/build/kironjCore && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/t1rxdqq/VSCode/c++/kironj/kironjCore/src/kironjCore/Application.cpp -o CMakeFiles/kironjCore.dir/src/kironjCore/Application.cpp.s
 
 # Object files for target kironjCore
 kironjCore_OBJECTS = \
-"CMakeFiles/kironjCore.dir/src/kironjCore/Utils/test.cpp.o"
+"CMakeFiles/kironjCore.dir/src/kironjCore/Application.cpp.o"
 
 # External object files for target kironjCore
 kironjCore_EXTERNAL_OBJECTS =
 
-kironjCore/libkironjCore.a: kironjCore/CMakeFiles/kironjCore.dir/src/kironjCore/Utils/test.cpp.o
+kironjCore/libkironjCore.a: kironjCore/CMakeFiles/kironjCore.dir/src/kironjCore/Application.cpp.o
 kironjCore/libkironjCore.a: kironjCore/CMakeFiles/kironjCore.dir/build.make
 kironjCore/libkironjCore.a: kironjCore/CMakeFiles/kironjCore.dir/link.txt
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/home/t1rxdqq/VSCode/c++/kironj/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Linking CXX static library libkironjCore.a"

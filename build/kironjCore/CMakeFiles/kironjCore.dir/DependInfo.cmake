@@ -8,11 +8,12 @@ set(CMAKE_DEPENDS_LANGUAGES
 
 # The set of dependency files which are needed:
 set(CMAKE_DEPENDS_DEPENDENCY_FILES
-  "/home/t1rxdqq/VSCode/c++/kironj/kironjCore/src/kironjCore/Utils/test.cpp" "kironjCore/CMakeFiles/kironjCore.dir/src/kironjCore/Utils/test.cpp.o" "gcc" "kironjCore/CMakeFiles/kironjCore.dir/src/kironjCore/Utils/test.cpp.o.d"
+  "/home/t1rxdqq/VSCode/c++/kironj/kironjCore/src/kironjCore/Application.cpp" "kironjCore/CMakeFiles/kironjCore.dir/src/kironjCore/Application.cpp.o" "gcc" "kironjCore/CMakeFiles/kironjCore.dir/src/kironjCore/Application.cpp.o.d"
   )
 
 # Targets to which this target links.
 set(CMAKE_TARGET_LINKED_INFO_FILES
+  "/home/t1rxdqq/VSCode/c++/kironj/build/kironjCore/glfw/src/CMakeFiles/glfw.dir/DependInfo.cmake"
   )
 
 # Fortran module output directory.

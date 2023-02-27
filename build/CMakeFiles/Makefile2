@@ -82,15 +82,49 @@ clean: kironjEditor/clean
 
 # Recursive "all" directory target.
 kironjCore/all: kironjCore/CMakeFiles/kironjCore.dir/all
+kironjCore/all: kironjCore/glfw/all
 .PHONY : kironjCore/all
 
 # Recursive "preinstall" directory target.
-kironjCore/preinstall:
+kironjCore/preinstall: kironjCore/glfw/preinstall
 .PHONY : kironjCore/preinstall
 
 # Recursive "clean" directory target.
 kironjCore/clean: kironjCore/CMakeFiles/kironjCore.dir/clean
+kironjCore/clean: kironjCore/glfw/clean
 .PHONY : kironjCore/clean
+
+#=============================================================================
+# Directory level rules for directory kironjCore/glfw
+
+# Recursive "all" directory target.
+kironjCore/glfw/all: kironjCore/glfw/src/all
+.PHONY : kironjCore/glfw/all
+
+# Recursive "preinstall" directory target.
+kironjCore/glfw/preinstall: kironjCore/glfw/src/preinstall
+.PHONY : kironjCore/glfw/preinstall
+
+# Recursive "clean" directory target.
+kironjCore/glfw/clean: kironjCore/glfw/CMakeFiles/uninstall.dir/clean
+kironjCore/glfw/clean: kironjCore/glfw/src/clean
+.PHONY : kironjCore/glfw/clean
+
+#=============================================================================
+# Directory level rules for directory kironjCore/glfw/src
+
+# Recursive "all" directory target.
+kironjCore/glfw/src/all: kironjCore/glfw/src/CMakeFiles/glfw.dir/all
+.PHONY : kironjCore/glfw/src/all
+
+# Recursive "preinstall" directory target.
+kironjCore/glfw/src/preinstall:
+.PHONY : kironjCore/glfw/src/preinstall
+
+# Recursive "clean" directory target.
+kironjCore/glfw/src/clean: kironjCore/glfw/src/CMakeFiles/glfw.dir/clean
+kironjCore/glfw/src/clean: kironjCore/glfw/src/CMakeFiles/update_mappings.dir/clean
+.PHONY : kironjCore/glfw/src/clean
 
 #=============================================================================
 # Directory level rules for directory kironjEditor
@@ -111,15 +145,15 @@ kironjEditor/clean: kironjEditor/CMakeFiles/kironjEditor.dir/clean
 # Target rules for target kironjCore/CMakeFiles/kironjCore.dir
 
 # All Build rule for target.
-kironjCore/CMakeFiles/kironjCore.dir/all:
+kironjCore/CMakeFiles/kironjCore.dir/all: kironjCore/glfw/src/CMakeFiles/glfw.dir/all
 	$(MAKE) $(MAKESILENT) -f kironjCore/CMakeFiles/kironjCore.dir/build.make kironjCore/CMakeFiles/kironjCore.dir/depend
 	$(MAKE) $(MAKESILENT) -f kironjCore/CMakeFiles/kironjCore.dir/build.make kironjCore/CMakeFiles/kironjCore.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/t1rxdqq/VSCode/c++/kironj/build/CMakeFiles --progress-num=1,2 "Built target kironjCore"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/t1rxdqq/VSCode/c++/kironj/build/CMakeFiles --progress-num=25,26 "Built target kironjCore"
 .PHONY : kironjCore/CMakeFiles/kironjCore.dir/all
 
 # Build rule for subdir invocation for target.
 kironjCore/CMakeFiles/kironjCore.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/t1rxdqq/VSCode/c++/kironj/build/CMakeFiles 2
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/t1rxdqq/VSCode/c++/kironj/build/CMakeFiles 26
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 kironjCore/CMakeFiles/kironjCore.dir/all
 	$(CMAKE_COMMAND) -E cmake_progress_start /home/t1rxdqq/VSCode/c++/kironj/build/CMakeFiles 0
 .PHONY : kironjCore/CMakeFiles/kironjCore.dir/rule
@@ -134,18 +168,97 @@ kironjCore/CMakeFiles/kironjCore.dir/clean:
 .PHONY : kironjCore/CMakeFiles/kironjCore.dir/clean
 
 #=============================================================================
+# Target rules for target kironjCore/glfw/CMakeFiles/uninstall.dir
+
+# All Build rule for target.
+kironjCore/glfw/CMakeFiles/uninstall.dir/all:
+	$(MAKE) $(MAKESILENT) -f kironjCore/glfw/CMakeFiles/uninstall.dir/build.make kironjCore/glfw/CMakeFiles/uninstall.dir/depend
+	$(MAKE) $(MAKESILENT) -f kironjCore/glfw/CMakeFiles/uninstall.dir/build.make kironjCore/glfw/CMakeFiles/uninstall.dir/build
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/t1rxdqq/VSCode/c++/kironj/build/CMakeFiles --progress-num= "Built target uninstall"
+.PHONY : kironjCore/glfw/CMakeFiles/uninstall.dir/all
+
+# Build rule for subdir invocation for target.
+kironjCore/glfw/CMakeFiles/uninstall.dir/rule: cmake_check_build_system
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/t1rxdqq/VSCode/c++/kironj/build/CMakeFiles 0
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 kironjCore/glfw/CMakeFiles/uninstall.dir/all
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/t1rxdqq/VSCode/c++/kironj/build/CMakeFiles 0
+.PHONY : kironjCore/glfw/CMakeFiles/uninstall.dir/rule
+
+# Convenience name for target.
+uninstall: kironjCore/glfw/CMakeFiles/uninstall.dir/rule
+.PHONY : uninstall
+
+# clean rule for target.
+kironjCore/glfw/CMakeFiles/uninstall.dir/clean:
+	$(MAKE) $(MAKESILENT) -f kironjCore/glfw/CMakeFiles/uninstall.dir/build.make kironjCore/glfw/CMakeFiles/uninstall.dir/clean
+.PHONY : kironjCore/glfw/CMakeFiles/uninstall.dir/clean
+
+#=============================================================================
+# Target rules for target kironjCore/glfw/src/CMakeFiles/glfw.dir
+
+# All Build rule for target.
+kironjCore/glfw/src/CMakeFiles/glfw.dir/all:
+	$(MAKE) $(MAKESILENT) -f kironjCore/glfw/src/CMakeFiles/glfw.dir/build.make kironjCore/glfw/src/CMakeFiles/glfw.dir/depend
+	$(MAKE) $(MAKESILENT) -f kironjCore/glfw/src/CMakeFiles/glfw.dir/build.make kironjCore/glfw/src/CMakeFiles/glfw.dir/build
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/t1rxdqq/VSCode/c++/kironj/build/CMakeFiles --progress-num=1,2,3,4,5,6,7,8,9,10,11,12,13,14,15,16,17,18,19,20,21,22,23,24 "Built target glfw"
+.PHONY : kironjCore/glfw/src/CMakeFiles/glfw.dir/all
+
+# Build rule for subdir invocation for target.
+kironjCore/glfw/src/CMakeFiles/glfw.dir/rule: cmake_check_build_system
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/t1rxdqq/VSCode/c++/kironj/build/CMakeFiles 24
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 kironjCore/glfw/src/CMakeFiles/glfw.dir/all
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/t1rxdqq/VSCode/c++/kironj/build/CMakeFiles 0
+.PHONY : kironjCore/glfw/src/CMakeFiles/glfw.dir/rule
+
+# Convenience name for target.
+glfw: kironjCore/glfw/src/CMakeFiles/glfw.dir/rule
+.PHONY : glfw
+
+# clean rule for target.
+kironjCore/glfw/src/CMakeFiles/glfw.dir/clean:
+	$(MAKE) $(MAKESILENT) -f kironjCore/glfw/src/CMakeFiles/glfw.dir/build.make kironjCore/glfw/src/CMakeFiles/glfw.dir/clean
+.PHONY : kironjCore/glfw/src/CMakeFiles/glfw.dir/clean
+
+#=============================================================================
+# Target rules for target kironjCore/glfw/src/CMakeFiles/update_mappings.dir
+
+# All Build rule for target.
+kironjCore/glfw/src/CMakeFiles/update_mappings.dir/all:
+	$(MAKE) $(MAKESILENT) -f kironjCore/glfw/src/CMakeFiles/update_mappings.dir/build.make kironjCore/glfw/src/CMakeFiles/update_mappings.dir/depend
+	$(MAKE) $(MAKESILENT) -f kironjCore/glfw/src/CMakeFiles/update_mappings.dir/build.make kironjCore/glfw/src/CMakeFiles/update_mappings.dir/build
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/t1rxdqq/VSCode/c++/kironj/build/CMakeFiles --progress-num=29 "Built target update_mappings"
+.PHONY : kironjCore/glfw/src/CMakeFiles/update_mappings.dir/all
+
+# Build rule for subdir invocation for target.
+kironjCore/glfw/src/CMakeFiles/update_mappings.dir/rule: cmake_check_build_system
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/t1rxdqq/VSCode/c++/kironj/build/CMakeFiles 1
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 kironjCore/glfw/src/CMakeFiles/update_mappings.dir/all
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/t1rxdqq/VSCode/c++/kironj/build/CMakeFiles 0
+.PHONY : kironjCore/glfw/src/CMakeFiles/update_mappings.dir/rule
+
+# Convenience name for target.
+update_mappings: kironjCore/glfw/src/CMakeFiles/update_mappings.dir/rule
+.PHONY : update_mappings
+
+# clean rule for target.
+kironjCore/glfw/src/CMakeFiles/update_mappings.dir/clean:
+	$(MAKE) $(MAKESILENT) -f kironjCore/glfw/src/CMakeFiles/update_mappings.dir/build.make kironjCore/glfw/src/CMakeFiles/update_mappings.dir/clean
+.PHONY : kironjCore/glfw/src/CMakeFiles/update_mappings.dir/clean
+
+#=============================================================================
 # Target rules for target kironjEditor/CMakeFiles/kironjEditor.dir
 
 # All Build rule for target.
+kironjEditor/CMakeFiles/kironjEditor.dir/all: kironjCore/glfw/src/CMakeFiles/glfw.dir/all
 kironjEditor/CMakeFiles/kironjEditor.dir/all: kironjCore/CMakeFiles/kironjCore.dir/all
 	$(MAKE) $(MAKESILENT) -f kironjEditor/CMakeFiles/kironjEditor.dir/build.make kironjEditor/CMakeFiles/kironjEditor.dir/depend
 	$(MAKE) $(MAKESILENT) -f kironjEditor/CMakeFiles/kironjEditor.dir/build.make kironjEditor/CMakeFiles/kironjEditor.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/t1rxdqq/VSCode/c++/kironj/build/CMakeFiles --progress-num=3,4 "Built target kironjEditor"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/t1rxdqq/VSCode/c++/kironj/build/CMakeFiles --progress-num=27,28 "Built target kironjEditor"
 .PHONY : kironjEditor/CMakeFiles/kironjEditor.dir/all
 
 # Build rule for subdir invocation for target.
 kironjEditor/CMakeFiles/kironjEditor.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/t1rxdqq/VSCode/c++/kironj/build/CMakeFiles 4
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/t1rxdqq/VSCode/c++/kironj/build/CMakeFiles 28
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 kironjEditor/CMakeFiles/kironjEditor.dir/all
 	$(CMAKE_COMMAND) -E cmake_progress_start /home/t1rxdqq/VSCode/c++/kironj/build/CMakeFiles 0
 .PHONY : kironjEditor/CMakeFiles/kironjEditor.dir/rule

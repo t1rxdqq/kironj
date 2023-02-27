@@ -1,1 +1,1 @@
-/usr/bin/c++ CMakeFiles/kironjEditor.dir/src/main.cpp.o -o ../bin/kironjEditor  ../kironjCore/libkironjCore.a 
+/usr/bin/c++ CMakeFiles/kironjEditor.dir/src/main.cpp.o -o ../bin/kironjEditor  ../kironjCore/libkironjCore.a ../kironjCore/glfw/src/libglfw3.a /usr/lib/x86_64-linux-gnu/librt.a -lm -ldl 

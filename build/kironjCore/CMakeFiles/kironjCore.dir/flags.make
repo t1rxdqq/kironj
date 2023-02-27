@@ -4,7 +4,7 @@
 # compile CXX with /usr/bin/c++
 CXX_DEFINES = 
 
-CXX_INCLUDES = -I/home/t1rxdqq/VSCode/c++/kironj/kironjCore/includes
+CXX_INCLUDES = -I/home/t1rxdqq/VSCode/c++/kironj/kironjCore/includes -I/home/t1rxdqq/VSCode/c++/kironj/external/glfw/include
 
 CXX_FLAGS = 
 

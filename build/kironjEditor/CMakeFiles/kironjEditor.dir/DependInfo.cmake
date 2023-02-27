@@ -14,6 +14,7 @@ set(CMAKE_DEPENDS_DEPENDENCY_FILES
 # Targets to which this target links.
 set(CMAKE_TARGET_LINKED_INFO_FILES
   "/home/t1rxdqq/VSCode/c++/kironj/build/kironjCore/CMakeFiles/kironjCore.dir/DependInfo.cmake"
+  "/home/t1rxdqq/VSCode/c++/kironj/build/kironjCore/glfw/src/CMakeFiles/glfw.dir/DependInfo.cmake"
   )
 
 # Fortran module output directory.

@@ -93,6 +93,9 @@ kironjEditor_EXTERNAL_OBJECTS =
 bin/kironjEditor: kironjEditor/CMakeFiles/kironjEditor.dir/src/main.cpp.o
 bin/kironjEditor: kironjEditor/CMakeFiles/kironjEditor.dir/build.make
 bin/kironjEditor: kironjCore/libkironjCore.a
+bin/kironjEditor: kironjCore/glfw/src/libglfw3.a
+bin/kironjEditor: /usr/lib/x86_64-linux-gnu/librt.a
+bin/kironjEditor: /usr/lib/x86_64-linux-gnu/libm.so
 bin/kironjEditor: kironjEditor/CMakeFiles/kironjEditor.dir/link.txt
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/home/t1rxdqq/VSCode/c++/kironj/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Linking CXX executable ../bin/kironjEditor"
 	cd /home/t1rxdqq/VSCode/c++/kironj/build/kironjEditor && $(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/kironjEditor.dir/link.txt --verbose=$(VERBOSE)

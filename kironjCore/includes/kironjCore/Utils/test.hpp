@@ -1,4 +1,0 @@
-namespace kironj {
-
-    void sayHello();
-}

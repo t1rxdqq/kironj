@@ -1,6 +1,6 @@
 file(REMOVE_RECURSE
-  "CMakeFiles/kironjCore.dir/src/kironjCore/Utils/test.cpp.o"
-  "CMakeFiles/kironjCore.dir/src/kironjCore/Utils/test.cpp.o.d"
+  "CMakeFiles/kironjCore.dir/src/kironjCore/Application.cpp.o"
+  "CMakeFiles/kironjCore.dir/src/kironjCore/Application.cpp.o.d"
   "libkironjCore.a"
   "libkironjCore.pdb"
 )
