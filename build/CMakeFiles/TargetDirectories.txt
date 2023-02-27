@@ -1,0 +1,8 @@
+/home/t1rxdqq/VSCode/c++/kironj/build/CMakeFiles/edit_cache.dir
+/home/t1rxdqq/VSCode/c++/kironj/build/CMakeFiles/rebuild_cache.dir
+/home/t1rxdqq/VSCode/c++/kironj/build/kironjCore/CMakeFiles/kironjCore.dir
+/home/t1rxdqq/VSCode/c++/kironj/build/kironjCore/CMakeFiles/edit_cache.dir
+/home/t1rxdqq/VSCode/c++/kironj/build/kironjCore/CMakeFiles/rebuild_cache.dir
+/home/t1rxdqq/VSCode/c++/kironj/build/kironjEditor/CMakeFiles/kironjEditor.dir
+/home/t1rxdqq/VSCode/c++/kironj/build/kironjEditor/CMakeFiles/edit_cache.dir
+/home/t1rxdqq/VSCode/c++/kironj/build/kironjEditor/CMakeFiles/rebuild_cache.dir
