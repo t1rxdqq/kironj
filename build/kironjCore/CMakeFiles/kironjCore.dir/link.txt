@@ -1,2 +1,0 @@
-/usr/bin/ar qc libkironjCore.a CMakeFiles/kironjCore.dir/src/kironjCore/Application.cpp.o
-/usr/bin/ranlib libkironjCore.a
