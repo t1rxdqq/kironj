@@ -8,6 +8,7 @@ class MyApp : public kironj::Application
     {
         std::cout << "Update frame: " << frame++ << std::endl;
     };
+    
     int frame=0;
 };
 
